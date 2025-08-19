@@ -1,0 +1,28 @@
+dependencies: \
+  /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieitem.cpp \
+  /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieitem.h \
+  /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottiekeypath.h \
+  /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vglobal.h \
+  /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdebug.h \
+  /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/config.h \
+  /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottiefiltermodel.h \
+  /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottiemodel.h \
+  /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/varenaalloc.h \
+  /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vbezier.h \
+  /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vpoint.h \
+  /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vbrush.h \
+  /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vmatrix.h \
+  /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vrect.h \
+  /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vbitmap.h \
+  /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vsharedptr.h \
+  /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vinterpolator.h \
+  /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vpath.h \
+  /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vcowptr.h \
+  /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/inc/rlottie.h \
+  /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/inc/rlottiecommon.h \
+  /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdrawable.h \
+  /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vrle.h \
+  /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vraster.h \
+  /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vpainter.h \
+  /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdrawhelper.h \
+  /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vpathmesure.h

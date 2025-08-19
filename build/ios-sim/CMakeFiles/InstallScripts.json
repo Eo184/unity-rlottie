@@ -1,0 +1,17 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/cmake_install.cmake",
+		"/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/inc/cmake_install.cmake",
+		"/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/cmake_install.cmake",
+		"/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/cmake_install.cmake",
+		"/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/freetype/cmake_install.cmake",
+		"/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/pixman/cmake_install.cmake",
+		"/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb/cmake_install.cmake",
+		"/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/lottie/cmake_install.cmake",
+		"/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/binding/cmake_install.cmake",
+		"/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/binding/c/cmake_install.cmake",
+		"/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/example/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

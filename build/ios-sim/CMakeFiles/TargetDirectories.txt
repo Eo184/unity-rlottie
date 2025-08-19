@@ -1,0 +1,16 @@
+/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/CMakeFiles/rlottie.dir
+/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/CMakeFiles/install.dir
+/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/CMakeFiles/ALL_BUILD.dir
+/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/CMakeFiles/ZERO_CHECK.dir
+/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/inc/CMakeFiles/install.dir
+/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/CMakeFiles/install.dir
+/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/CMakeFiles/install.dir
+/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/freetype/CMakeFiles/install.dir
+/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/pixman/CMakeFiles/install.dir
+/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb/CMakeFiles/rlottie-image-loader.dir
+/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb/CMakeFiles/install.dir
+/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/lottie/CMakeFiles/install.dir
+/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/binding/CMakeFiles/install.dir
+/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/binding/c/CMakeFiles/install.dir
+/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/example/CMakeFiles/lottie2gif.dir
+/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/example/CMakeFiles/install.dir

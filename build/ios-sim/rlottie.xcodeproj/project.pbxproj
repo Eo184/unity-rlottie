@@ -1,0 +1,1555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0AB32AD00B3D6A700ADAEF4A /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 04E89A1914114AD59AAFEE84 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				A057B5F278B7CD4576704B02 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				9735F1AE6847426599796572 /* PBXTargetDependency */,
+				AE34DB8372784615ADDE19DB /* PBXTargetDependency */,
+				9CB73374DF244B21A3667D8D /* PBXTargetDependency */,
+				D6FF6B30F7AF4FB8BB180DB6 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		21A974DA652460CFEFBF2C35 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D8CE043641934A8C836A2565 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				829735B8587B50677C3AD4B3 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		67157E2C57B9C86281CD7CAB /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 39CDE260395E4182B232B731 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				F4CB34A241E34FD3AA7064F5 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01BFA9890F5445CE87CB05C8 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdrawable.cpp */ = {isa = PBXBuildFile; fileRef = 161DA5ABDABE4721BDC948EC /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdrawable.cpp */; };
+		0BDB55B1318B4D75A9B39B0D /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieitem_capi.cpp */ = {isa = PBXBuildFile; fileRef = 534B7175E3E3408BA18852C9 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieitem_capi.cpp */; };
+		1F2A5B070E9E4FB384DAA0D6 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdrawhelper_common.cpp */ = {isa = PBXBuildFile; fileRef = 77FDE05FF97D4DC6996C0F45 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdrawhelper_common.cpp */; };
+		2BDA76C77D5D48809F134505 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/example/CMakeFiles/lottie2gif.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = FB8F5F12793C49028A95CC5F /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/example/CMakeFiles/lottie2gif.dir/Info.plist */; };
+		3158AB6DCE8B40C9B3770AB6 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb/CMakeFiles/rlottie-image-loader.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 92AE71AA997D49D684665D43 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb/CMakeFiles/rlottie-image-loader.dir/Info.plist */; };
+		36459C36B1444E87B2DCA275 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdrawhelper.cpp */ = {isa = PBXBuildFile; fileRef = 444E0AD9D2EB4E4E88621A53 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdrawhelper.cpp */; };
+		38747355412C4B2592192696 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/varenaalloc.cpp */ = {isa = PBXBuildFile; fileRef = 45F11A7845BE4AE0B9650E0A /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/varenaalloc.cpp */; };
+		38EC9631FEBB4C8A9334B010 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vimageloader.cpp */ = {isa = PBXBuildFile; fileRef = 1FFC04287CF748A6AAF4F2B6 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vimageloader.cpp */; };
+		3F72C416537848078226D5C3 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vbezier.cpp */ = {isa = PBXBuildFile; fileRef = 38B4C67014534D34B3B7AA1B /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vbezier.cpp */; };
+		3FF7C2B55D3E44CFA2DDDA2B /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieloader.cpp */ = {isa = PBXBuildFile; fileRef = B05FB4367477419C9CABBB7D /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieloader.cpp */; };
+		44DA827199DE4EF58C6DC5F2 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdasher.cpp */ = {isa = PBXBuildFile; fileRef = 86FACFF4EF404AF9B993837F /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdasher.cpp */; };
+		4B663DECCD784373B4E9B63A /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/velapsedtimer.cpp */ = {isa = PBXBuildFile; fileRef = D8B65039CDD34C288AC54C09 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/velapsedtimer.cpp */; };
+		4BF199C5E2F14C65863793E5 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieproxymodel.cpp */ = {isa = PBXBuildFile; fileRef = 4DB724AB5BE249D7A34947BF /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieproxymodel.cpp */; };
+		4D754449DC7646349359AFEA /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdrawhelper_sse2.cpp */ = {isa = PBXBuildFile; fileRef = 28D124A30AE14FC19AD750D9 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdrawhelper_sse2.cpp */; };
+		53DE0E7A2EA3436BA876B168 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/freetype/v_ft_math.cpp */ = {isa = PBXBuildFile; fileRef = 4A8830E19956453DBBA5E74C /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/freetype/v_ft_math.cpp */; };
+		5D82BABE6B7C4320BF02D209 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/example/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9FC94159AC0E4E03A2B6A1BE /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/example/CMakeLists.txt */; };
+		5DEE717D9A584073904F861B /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vbitmap.cpp */ = {isa = PBXBuildFile; fileRef = 6F31D4F985E64E5D85F1C88B /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vbitmap.cpp */; };
+		6C56079238604138AC86A4CC /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieanimation.cpp */ = {isa = PBXBuildFile; fileRef = E1B80AB28C754FEFA8EF7EC5 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieanimation.cpp */; };
+		70F8FFA8BAF14B64B6E4A5AE /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/stb/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 28510FD11D794934812D6A5D /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/stb/CMakeLists.txt */; };
+		75F7B7DAD32A4C1899CE6478 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdebug.cpp */ = {isa = PBXBuildFile; fileRef = 3B95C82459124339A4711E74 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdebug.cpp */; };
+		76E266BA51764C0C852DFA52 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/stb/stb_image.cpp */ = {isa = PBXBuildFile; fileRef = 43EDC2A3ABAB409A9109E7F5 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/stb/stb_image.cpp */; };
+		78068F93A16F40DFBBCA8749 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vraster.cpp */ = {isa = PBXBuildFile; fileRef = 5BCBA6D79C5644A4B60171FA /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vraster.cpp */; };
+		7AD87A3D2B354901A4F2AD8B /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdrawhelper_neon.cpp */ = {isa = PBXBuildFile; fileRef = EF9FA7C54C114F27914604AD /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdrawhelper_neon.cpp */; };
+		7D6D4C7D9A7E4ACD94BDC500 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieparser.cpp */ = {isa = PBXBuildFile; fileRef = 68657A3B91634A85901C1695 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieparser.cpp */; };
+		87FAD786DFEA4879BFE45717 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vpainter.cpp */ = {isa = PBXBuildFile; fileRef = 74723A842154475598C5B69B /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vpainter.cpp */; };
+		8C643D6348064D02BAD48B3D /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottiekeypath.cpp */ = {isa = PBXBuildFile; fileRef = 46456D182529469886D9E0E8 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottiekeypath.cpp */; };
+		8EF751B5942941B3B6ABECF8 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieitem.cpp */ = {isa = PBXBuildFile; fileRef = D99472874C234355860AA46C /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieitem.cpp */; };
+		A3C84BBCCD9C4AB18A14B26E /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vpath.cpp */ = {isa = PBXBuildFile; fileRef = 219D4FECCB114EFEB09E4DD5 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vpath.cpp */; };
+		A5D9C48B575740E69891E94B /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vpathmesure.cpp */ = {isa = PBXBuildFile; fileRef = 18418E4C99524E008E1A2F20 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vpathmesure.cpp */; };
+		AC1913C0E2774107AAB92CDC /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/freetype/v_ft_raster.cpp */ = {isa = PBXBuildFile; fileRef = 23D0986FE8C54F08A1F99435 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/freetype/v_ft_raster.cpp */; };
+		B0A9386C798345E2870E50F1 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vinterpolator.cpp */ = {isa = PBXBuildFile; fileRef = 120F8BC946A64507BCD1D370 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vinterpolator.cpp */; };
+		B1AA6011FDF644F6B32CDFBE /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottiemodel.cpp */ = {isa = PBXBuildFile; fileRef = F6ACA68440874E86930E4646 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottiemodel.cpp */; };
+		B9B23E861C4344D28015EA77 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/freetype/v_ft_stroker.cpp */ = {isa = PBXBuildFile; fileRef = 5D0B2E9BEA42439F8A930031 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/freetype/v_ft_stroker.cpp */; };
+		DBE33837512841649675E902 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vmatrix.cpp */ = {isa = PBXBuildFile; fileRef = 540530C0050B434195FA83FE /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vmatrix.cpp */; };
+		DDCCE29AB5B540D29EC7CDBB /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vrle.cpp */ = {isa = PBXBuildFile; fileRef = 0C9C07D0C6C44B8C9B41F077 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vrle.cpp */; };
+		E031E35083B6482BB37110CF /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vrect.cpp */ = {isa = PBXBuildFile; fileRef = 0BA620ACE0DF41AFA81DB748 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vrect.cpp */; };
+		EFD2574FB2454021A5183D67 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = FB444F369D29432F86CE487D /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/CMakeLists.txt */; };
+		F03C80E46FBE436B971BECD5 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/CMakeFiles/rlottie.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 2A4F211DF6BD4DA7AFE04DEB /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/CMakeFiles/rlottie.dir/Info.plist */; };
+		F17BBD051AEA48D3812A9C91 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vbrush.cpp */ = {isa = PBXBuildFile; fileRef = E293FA3595344D32ADE01015 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vbrush.cpp */; };
+		F1918DF4BECB4DECABD5C7F2 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/example/lottie2gif.cpp */ = {isa = PBXBuildFile; fileRef = 1C0D845E3C7641A2A411DA67 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/example/lottie2gif.cpp */; };
+		FB29CA0B1D4348668C347163 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/binding/c/lottieanimation_capi.cpp */ = {isa = PBXBuildFile; fileRef = 7D55526ACF0A4F54A4EC05DE /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/binding/c/lottieanimation_capi.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		14FDA4459E634199BB30810F /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		26B3AD91D2D54098B8E15D97 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		7C396571293343979856C68A /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		7CE95223D14B48978ED235EA /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		15B46477734A485DB1D47A13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B25DA3E8B474A9EB7D82FB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21A974DA652460CFEFBF2C35;
+			remoteInfo = ZERO_CHECK;
+		};
+		31CA373170434BC79E80E314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B25DA3E8B474A9EB7D82FB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21A974DA652460CFEFBF2C35;
+			remoteInfo = ZERO_CHECK;
+		};
+		46914782F29F4356A62418CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B25DA3E8B474A9EB7D82FB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7F2FB2081CD07F54FB63133;
+			remoteInfo = rlottie;
+		};
+		7886B2B33DF84E05B34FB74D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B25DA3E8B474A9EB7D82FB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21A974DA652460CFEFBF2C35;
+			remoteInfo = ZERO_CHECK;
+		};
+		9EE3BCA0E4A542D6B7F0E334 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B25DA3E8B474A9EB7D82FB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF11E329B35A9157AFB27442;
+			remoteInfo = "rlottie-image-loader";
+		};
+		C1024F4F897746FA9E03071B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B25DA3E8B474A9EB7D82FB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AB32AD00B3D6A700ADAEF4A;
+			remoteInfo = ALL_BUILD;
+		};
+		DD858252066A485DBB8C006F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B25DA3E8B474A9EB7D82FB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A740186FF898B049BB5FD5B0;
+			remoteInfo = lottie2gif;
+		};
+		E82AFCCE479441118F2743BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B25DA3E8B474A9EB7D82FB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7F2FB2081CD07F54FB63133;
+			remoteInfo = rlottie;
+		};
+		F209311FBFF942609F5AE063 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B25DA3E8B474A9EB7D82FB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21A974DA652460CFEFBF2C35;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BA620ACE0DF41AFA81DB748 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vrect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vrect.cpp; path = src/vector/vrect.cpp; sourceTree = SOURCE_ROOT; };
+		0C9C07D0C6C44B8C9B41F077 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vrle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vrle.cpp; path = src/vector/vrle.cpp; sourceTree = SOURCE_ROOT; };
+		120F8BC946A64507BCD1D370 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vinterpolator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vinterpolator.cpp; path = src/vector/vinterpolator.cpp; sourceTree = SOURCE_ROOT; };
+		1316DD7056FA4AFAB8184978 /* rlottie-image-loader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = "librlottie-image-loader.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		161DA5ABDABE4721BDC948EC /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdrawable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vdrawable.cpp; path = src/vector/vdrawable.cpp; sourceTree = SOURCE_ROOT; };
+		18418E4C99524E008E1A2F20 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vpathmesure.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vpathmesure.cpp; path = src/vector/vpathmesure.cpp; sourceTree = SOURCE_ROOT; };
+		1C0D845E3C7641A2A411DA67 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/example/lottie2gif.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lottie2gif.cpp; path = example/lottie2gif.cpp; sourceTree = SOURCE_ROOT; };
+		1FFC04287CF748A6AAF4F2B6 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vimageloader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vimageloader.cpp; path = src/vector/vimageloader.cpp; sourceTree = SOURCE_ROOT; };
+		219D4FECCB114EFEB09E4DD5 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vpath.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vpath.cpp; path = src/vector/vpath.cpp; sourceTree = SOURCE_ROOT; };
+		23D0986FE8C54F08A1F99435 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/freetype/v_ft_raster.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = v_ft_raster.cpp; path = src/vector/freetype/v_ft_raster.cpp; sourceTree = SOURCE_ROOT; };
+		28510FD11D794934812D6A5D /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/stb/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/vector/stb/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		28D124A30AE14FC19AD750D9 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdrawhelper_sse2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vdrawhelper_sse2.cpp; path = src/vector/vdrawhelper_sse2.cpp; sourceTree = SOURCE_ROOT; };
+		2A4F211DF6BD4DA7AFE04DEB /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/CMakeFiles/rlottie.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/CMakeFiles/rlottie.dir/Info.plist"; sourceTree = "<absolute>"; };
+		2C06D3B7559E443DAD1891A8 /* rlottie */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = librlottie.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B4C67014534D34B3B7AA1B /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vbezier.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vbezier.cpp; path = src/vector/vbezier.cpp; sourceTree = SOURCE_ROOT; };
+		3B95C82459124339A4711E74 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdebug.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vdebug.cpp; path = src/vector/vdebug.cpp; sourceTree = SOURCE_ROOT; };
+		43EDC2A3ABAB409A9109E7F5 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/stb/stb_image.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stb_image.cpp; path = src/vector/stb/stb_image.cpp; sourceTree = SOURCE_ROOT; };
+		444E0AD9D2EB4E4E88621A53 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdrawhelper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vdrawhelper.cpp; path = src/vector/vdrawhelper.cpp; sourceTree = SOURCE_ROOT; };
+		45F11A7845BE4AE0B9650E0A /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/varenaalloc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = varenaalloc.cpp; path = src/vector/varenaalloc.cpp; sourceTree = SOURCE_ROOT; };
+		46456D182529469886D9E0E8 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottiekeypath.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lottiekeypath.cpp; path = src/lottie/lottiekeypath.cpp; sourceTree = SOURCE_ROOT; };
+		4A8830E19956453DBBA5E74C /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/freetype/v_ft_math.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = v_ft_math.cpp; path = src/vector/freetype/v_ft_math.cpp; sourceTree = SOURCE_ROOT; };
+		4DB724AB5BE249D7A34947BF /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieproxymodel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lottieproxymodel.cpp; path = src/lottie/lottieproxymodel.cpp; sourceTree = SOURCE_ROOT; };
+		534B7175E3E3408BA18852C9 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieitem_capi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lottieitem_capi.cpp; path = src/lottie/lottieitem_capi.cpp; sourceTree = SOURCE_ROOT; };
+		540530C0050B434195FA83FE /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vmatrix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vmatrix.cpp; path = src/vector/vmatrix.cpp; sourceTree = SOURCE_ROOT; };
+		5BCBA6D79C5644A4B60171FA /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vraster.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vraster.cpp; path = src/vector/vraster.cpp; sourceTree = SOURCE_ROOT; };
+		5D0B2E9BEA42439F8A930031 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/freetype/v_ft_stroker.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = v_ft_stroker.cpp; path = src/vector/freetype/v_ft_stroker.cpp; sourceTree = SOURCE_ROOT; };
+		607BE7E28FE6436AA8A03F0E /* lottie2gif */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = lottie2gif; sourceTree = BUILT_PRODUCTS_DIR; };
+		68657A3B91634A85901C1695 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieparser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lottieparser.cpp; path = src/lottie/lottieparser.cpp; sourceTree = SOURCE_ROOT; };
+		6C4D49B3F87E42FAB46CAFE7 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6F31D4F985E64E5D85F1C88B /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vbitmap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vbitmap.cpp; path = src/vector/vbitmap.cpp; sourceTree = SOURCE_ROOT; };
+		74723A842154475598C5B69B /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vpainter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vpainter.cpp; path = src/vector/vpainter.cpp; sourceTree = SOURCE_ROOT; };
+		77FDE05FF97D4DC6996C0F45 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdrawhelper_common.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vdrawhelper_common.cpp; path = src/vector/vdrawhelper_common.cpp; sourceTree = SOURCE_ROOT; };
+		7D55526ACF0A4F54A4EC05DE /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/binding/c/lottieanimation_capi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lottieanimation_capi.cpp; path = src/binding/c/lottieanimation_capi.cpp; sourceTree = SOURCE_ROOT; };
+		86FACFF4EF404AF9B993837F /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdasher.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vdasher.cpp; path = src/vector/vdasher.cpp; sourceTree = SOURCE_ROOT; };
+		92AE71AA997D49D684665D43 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb/CMakeFiles/rlottie-image-loader.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb/CMakeFiles/rlottie-image-loader.dir/Info.plist"; sourceTree = "<absolute>"; };
+		9FC94159AC0E4E03A2B6A1BE /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/example/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = example/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B05FB4367477419C9CABBB7D /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieloader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lottieloader.cpp; path = src/lottie/lottieloader.cpp; sourceTree = SOURCE_ROOT; };
+		D8B65039CDD34C288AC54C09 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/velapsedtimer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = velapsedtimer.cpp; path = src/vector/velapsedtimer.cpp; sourceTree = SOURCE_ROOT; };
+		D99472874C234355860AA46C /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieitem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lottieitem.cpp; path = src/lottie/lottieitem.cpp; sourceTree = SOURCE_ROOT; };
+		E1B80AB28C754FEFA8EF7EC5 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieanimation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lottieanimation.cpp; path = src/lottie/lottieanimation.cpp; sourceTree = SOURCE_ROOT; };
+		E293FA3595344D32ADE01015 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vbrush.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vbrush.cpp; path = src/vector/vbrush.cpp; sourceTree = SOURCE_ROOT; };
+		EF9FA7C54C114F27914604AD /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdrawhelper_neon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vdrawhelper_neon.cpp; path = src/vector/vdrawhelper_neon.cpp; sourceTree = SOURCE_ROOT; };
+		F6ACA68440874E86930E4646 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottiemodel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lottiemodel.cpp; path = src/lottie/lottiemodel.cpp; sourceTree = SOURCE_ROOT; };
+		FB444F369D29432F86CE487D /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FB8F5F12793C49028A95CC5F /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/example/CMakeFiles/lottie2gif.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/example/CMakeFiles/lottie2gif.dir/Info.plist"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14109BA3E75F4042A76E25AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B09E9732ACE46A2BB8AA2C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE7309C794B41D49D4147B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01A7567D369F428A95231ED3 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		2D17D60DB7024EDFA1AA7A9C /* lottie2gif */ = {
+			isa = PBXGroup;
+			children = (
+				C287D93B074F4DD79F38B628 /* Source Files */,
+				9D13AD6555FB4D7288CB4C78 /* Resources */,
+				9FC94159AC0E4E03A2B6A1BE /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/example/CMakeLists.txt */,
+			);
+			name = lottie2gif;
+			sourceTree = "<group>";
+		};
+		32CD5B3830D24777AE1804B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A4F211DF6BD4DA7AFE04DEB /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/CMakeFiles/rlottie.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3BEC84D0F07849EAA8F90B39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47F5EF10E0524ABD9ED299B2 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D55526ACF0A4F54A4EC05DE /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/binding/c/lottieanimation_capi.cpp */,
+				E1B80AB28C754FEFA8EF7EC5 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieanimation.cpp */,
+				D99472874C234355860AA46C /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieitem.cpp */,
+				534B7175E3E3408BA18852C9 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieitem_capi.cpp */,
+				46456D182529469886D9E0E8 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottiekeypath.cpp */,
+				B05FB4367477419C9CABBB7D /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieloader.cpp */,
+				F6ACA68440874E86930E4646 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottiemodel.cpp */,
+				68657A3B91634A85901C1695 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieparser.cpp */,
+				4DB724AB5BE249D7A34947BF /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieproxymodel.cpp */,
+				4A8830E19956453DBBA5E74C /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/freetype/v_ft_math.cpp */,
+				23D0986FE8C54F08A1F99435 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/freetype/v_ft_raster.cpp */,
+				5D0B2E9BEA42439F8A930031 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/freetype/v_ft_stroker.cpp */,
+				45F11A7845BE4AE0B9650E0A /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/varenaalloc.cpp */,
+				38B4C67014534D34B3B7AA1B /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vbezier.cpp */,
+				6F31D4F985E64E5D85F1C88B /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vbitmap.cpp */,
+				E293FA3595344D32ADE01015 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vbrush.cpp */,
+				86FACFF4EF404AF9B993837F /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdasher.cpp */,
+				3B95C82459124339A4711E74 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdebug.cpp */,
+				161DA5ABDABE4721BDC948EC /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdrawable.cpp */,
+				444E0AD9D2EB4E4E88621A53 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdrawhelper.cpp */,
+				77FDE05FF97D4DC6996C0F45 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdrawhelper_common.cpp */,
+				EF9FA7C54C114F27914604AD /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdrawhelper_neon.cpp */,
+				28D124A30AE14FC19AD750D9 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdrawhelper_sse2.cpp */,
+				D8B65039CDD34C288AC54C09 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/velapsedtimer.cpp */,
+				1FFC04287CF748A6AAF4F2B6 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vimageloader.cpp */,
+				120F8BC946A64507BCD1D370 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vinterpolator.cpp */,
+				540530C0050B434195FA83FE /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vmatrix.cpp */,
+				74723A842154475598C5B69B /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vpainter.cpp */,
+				219D4FECCB114EFEB09E4DD5 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vpath.cpp */,
+				18418E4C99524E008E1A2F20 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vpathmesure.cpp */,
+				5BCBA6D79C5644A4B60171FA /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vraster.cpp */,
+				0BA620ACE0DF41AFA81DB748 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vrect.cpp */,
+				0C9C07D0C6C44B8C9B41F077 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vrle.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		511FB7677F7D4871B086F5D2 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				43EDC2A3ABAB409A9109E7F5 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/stb/stb_image.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		718B70F27ABA4EB2A50FFC62 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92AE71AA997D49D684665D43 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb/CMakeFiles/rlottie-image-loader.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7D06B791130B4FDC90157757 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		90A8D007F20A44D78D80A2FE /* rlottie-image-loader */ = {
+			isa = PBXGroup;
+			children = (
+				511FB7677F7D4871B086F5D2 /* Source Files */,
+				718B70F27ABA4EB2A50FFC62 /* Resources */,
+				28510FD11D794934812D6A5D /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/stb/CMakeLists.txt */,
+			);
+			name = "rlottie-image-loader";
+			sourceTree = "<group>";
+		};
+		9D13AD6555FB4D7288CB4C78 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB8F5F12793C49028A95CC5F /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/example/CMakeFiles/lottie2gif.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A0C6089B323148FF83FBAFBA = {
+			isa = PBXGroup;
+			children = (
+				F742A07B9AE04BE5866258D5 /* rlottie */,
+				B4FDCD4771A0474AB6C20BC2 /* ALL_BUILD */,
+				90A8D007F20A44D78D80A2FE /* rlottie-image-loader */,
+				2D17D60DB7024EDFA1AA7A9C /* lottie2gif */,
+				A0D43F745B5D4A48AA7FE239 /* Products */,
+				3BEC84D0F07849EAA8F90B39 /* Frameworks */,
+				7D06B791130B4FDC90157757 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		A0D43F745B5D4A48AA7FE239 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				607BE7E28FE6436AA8A03F0E /* lottie2gif */,
+				2C06D3B7559E443DAD1891A8 /* rlottie */,
+				1316DD7056FA4AFAB8184978 /* rlottie-image-loader */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4FDCD4771A0474AB6C20BC2 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				01A7567D369F428A95231ED3 /* CMake Rules */,
+				6C4D49B3F87E42FAB46CAFE7 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		C287D93B074F4DD79F38B628 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C0D845E3C7641A2A411DA67 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/example/lottie2gif.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F742A07B9AE04BE5866258D5 /* rlottie */ = {
+			isa = PBXGroup;
+			children = (
+				47F5EF10E0524ABD9ED299B2 /* Source Files */,
+				32CD5B3830D24777AE1804B6 /* Resources */,
+				FB444F369D29432F86CE487D /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/CMakeLists.txt */,
+			);
+			name = rlottie;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A740186FF898B049BB5FD5B0 /* lottie2gif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF66DC1A4534C84B2ACC3DE /* Build configuration list for PBXNativeTarget "lottie2gif" */;
+			buildPhases = (
+				E0F5F3527344467189ED0FE4 /* Sources */,
+				BAE7309C794B41D49D4147B0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB505412ABF74F80BC6BDA34 /* PBXTargetDependency */,
+				A25B4F1554154735B3080CFE /* PBXTargetDependency */,
+			);
+			name = lottie2gif;
+			productName = lottie2gif;
+			productReference = 607BE7E28FE6436AA8A03F0E /* lottie2gif */;
+			productType = "com.apple.product-type.application";
+		};
+		CF11E329B35A9157AFB27442 /* rlottie-image-loader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2EB36ADF9CF4CB4B79DB6F0 /* Build configuration list for PBXNativeTarget "rlottie-image-loader" */;
+			buildPhases = (
+				C580048578AD4707A4F6F29A /* Sources */,
+				5B09E9732ACE46A2BB8AA2C9 /* Frameworks */,
+				468891165EF05DC9F80B71E4 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3D46930A962408980FBDDBD /* PBXTargetDependency */,
+			);
+			name = "rlottie-image-loader";
+			productName = "rlottie-image-loader";
+			productReference = 1316DD7056FA4AFAB8184978 /* rlottie-image-loader */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		F7F2FB2081CD07F54FB63133 /* rlottie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BABC4E04DCB544D8ACD14753 /* Build configuration list for PBXNativeTarget "rlottie" */;
+			buildPhases = (
+				8593F4CB304E4F729FC62CE6 /* Sources */,
+				14109BA3E75F4042A76E25AA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93BEFFB9C26340F6981558DA /* PBXTargetDependency */,
+			);
+			name = rlottie;
+			productName = rlottie;
+			productReference = 2C06D3B7559E443DAD1891A8 /* rlottie */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B25DA3E8B474A9EB7D82FB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1640;
+			};
+			buildConfigurationList = 564917D2364D409DA466D3FC /* Build configuration list for PBXProject "rlottie" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				7CE95223D14B48978ED235EA /* Debug */,
+				14FDA4459E634199BB30810F /* Release */,
+				26B3AD91D2D54098B8E15D97 /* MinSizeRel */,
+				7C396571293343979856C68A /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = A0C6089B323148FF83FBAFBA;
+			projectDirPath = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie";
+			projectRoot = "";
+			targets = (
+				0AB32AD00B3D6A700ADAEF4A /* ALL_BUILD */,
+				67157E2C57B9C86281CD7CAB /* install */,
+				A740186FF898B049BB5FD5B0 /* lottie2gif */,
+				F7F2FB2081CD07F54FB63133 /* rlottie */,
+				CF11E329B35A9157AFB27442 /* rlottie-image-loader */,
+				21A974DA652460CFEFBF2C35 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		468891165EF05DC9F80B71E4 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb
+  /opt/homebrew/bin/cmake -E cmake_symlink_library /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb/Debug${EFFECTIVE_PLATFORM_NAME}/librlottie-image-loader.dylib /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb/Debug${EFFECTIVE_PLATFORM_NAME}/librlottie-image-loader.dylib /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb/Debug${EFFECTIVE_PLATFORM_NAME}/librlottie-image-loader.dylib
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb
+  /opt/homebrew/bin/cmake -E cmake_symlink_library /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb/Release${EFFECTIVE_PLATFORM_NAME}/librlottie-image-loader.dylib /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb/Release${EFFECTIVE_PLATFORM_NAME}/librlottie-image-loader.dylib /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb/Release${EFFECTIVE_PLATFORM_NAME}/librlottie-image-loader.dylib
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb
+  /opt/homebrew/bin/cmake -E cmake_symlink_library /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb/MinSizeRel${EFFECTIVE_PLATFORM_NAME}/librlottie-image-loader.dylib /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb/MinSizeRel${EFFECTIVE_PLATFORM_NAME}/librlottie-image-loader.dylib /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb/MinSizeRel${EFFECTIVE_PLATFORM_NAME}/librlottie-image-loader.dylib
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb
+  /opt/homebrew/bin/cmake -E cmake_symlink_library /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}/librlottie-image-loader.dylib /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}/librlottie-image-loader.dylib /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}/librlottie-image-loader.dylib
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		829735B8587B50677C3AD4B3 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim
+  make -f /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim
+  make -f /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim
+  make -f /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim
+  make -f /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A057B5F278B7CD4576704B02 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8593F4CB304E4F729FC62CE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB29CA0B1D4348668C347163 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/binding/c/lottieanimation_capi.cpp */,
+				6C56079238604138AC86A4CC /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieanimation.cpp */,
+				8EF751B5942941B3B6ABECF8 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieitem.cpp */,
+				0BDB55B1318B4D75A9B39B0D /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieitem_capi.cpp */,
+				8C643D6348064D02BAD48B3D /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottiekeypath.cpp */,
+				3FF7C2B55D3E44CFA2DDDA2B /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieloader.cpp */,
+				B1AA6011FDF644F6B32CDFBE /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottiemodel.cpp */,
+				7D6D4C7D9A7E4ACD94BDC500 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieparser.cpp */,
+				4BF199C5E2F14C65863793E5 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie/lottieproxymodel.cpp */,
+				53DE0E7A2EA3436BA876B168 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/freetype/v_ft_math.cpp */,
+				AC1913C0E2774107AAB92CDC /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/freetype/v_ft_raster.cpp */,
+				B9B23E861C4344D28015EA77 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/freetype/v_ft_stroker.cpp */,
+				38747355412C4B2592192696 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/varenaalloc.cpp */,
+				3F72C416537848078226D5C3 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vbezier.cpp */,
+				5DEE717D9A584073904F861B /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vbitmap.cpp */,
+				F17BBD051AEA48D3812A9C91 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vbrush.cpp */,
+				44DA827199DE4EF58C6DC5F2 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdasher.cpp */,
+				75F7B7DAD32A4C1899CE6478 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdebug.cpp */,
+				01BFA9890F5445CE87CB05C8 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdrawable.cpp */,
+				36459C36B1444E87B2DCA275 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdrawhelper.cpp */,
+				1F2A5B070E9E4FB384DAA0D6 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdrawhelper_common.cpp */,
+				7AD87A3D2B354901A4F2AD8B /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdrawhelper_neon.cpp */,
+				4D754449DC7646349359AFEA /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vdrawhelper_sse2.cpp */,
+				4B663DECCD784373B4E9B63A /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/velapsedtimer.cpp */,
+				38EC9631FEBB4C8A9334B010 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vimageloader.cpp */,
+				B0A9386C798345E2870E50F1 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vinterpolator.cpp */,
+				DBE33837512841649675E902 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vmatrix.cpp */,
+				87FAD786DFEA4879BFE45717 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vpainter.cpp */,
+				A3C84BBCCD9C4AB18A14B26E /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vpath.cpp */,
+				A5D9C48B575740E69891E94B /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vpathmesure.cpp */,
+				78068F93A16F40DFBBCA8749 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vraster.cpp */,
+				E031E35083B6482BB37110CF /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vrect.cpp */,
+				DDCCE29AB5B540D29EC7CDBB /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/vrle.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C580048578AD4707A4F6F29A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E266BA51764C0C852DFA52 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/stb/stb_image.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F5F3527344467189ED0FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1918DF4BECB4DECABD5C7F2 /* /Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/example/lottie2gif.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93BEFFB9C26340F6981558DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21A974DA652460CFEFBF2C35 /* ZERO_CHECK */;
+			targetProxy = F209311FBFF942609F5AE063 /* PBXContainerItemProxy */;
+		};
+		9735F1AE6847426599796572 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF11E329B35A9157AFB27442 /* rlottie-image-loader */;
+			targetProxy = 9EE3BCA0E4A542D6B7F0E334 /* PBXContainerItemProxy */;
+		};
+		9CB73374DF244B21A3667D8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21A974DA652460CFEFBF2C35 /* ZERO_CHECK */;
+			targetProxy = 15B46477734A485DB1D47A13 /* PBXContainerItemProxy */;
+		};
+		A25B4F1554154735B3080CFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7F2FB2081CD07F54FB63133 /* rlottie */;
+			targetProxy = E82AFCCE479441118F2743BE /* PBXContainerItemProxy */;
+		};
+		AB505412ABF74F80BC6BDA34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21A974DA652460CFEFBF2C35 /* ZERO_CHECK */;
+			targetProxy = 7886B2B33DF84E05B34FB74D /* PBXContainerItemProxy */;
+		};
+		AE34DB8372784615ADDE19DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A740186FF898B049BB5FD5B0 /* lottie2gif */;
+			targetProxy = DD858252066A485DBB8C006F /* PBXContainerItemProxy */;
+		};
+		D3D46930A962408980FBDDBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21A974DA652460CFEFBF2C35 /* ZERO_CHECK */;
+			targetProxy = 31CA373170434BC79E80E314 /* PBXContainerItemProxy */;
+		};
+		D6FF6B30F7AF4FB8BB180DB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7F2FB2081CD07F54FB63133 /* rlottie */;
+			targetProxy = 46914782F29F4356A62418CA /* PBXContainerItemProxy */;
+		};
+		F4CB34A241E34FD3AA7064F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AB32AD00B3D6A700ADAEF4A /* ALL_BUILD */;
+			targetProxy = C1024F4F897746FA9E03071B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02BCB30B0C2D496599837CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/example/Release${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/example/../inc","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/inc","$(inherited)");
+				INFOPLIST_FILE = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/example/CMakeFiles/lottie2gif.dir/Info.plist";
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/Release${EFFECTIVE_PLATFORM_NAME}/librlottie.a","-Wl, -undefined error","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lottie2gif;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/build/lottie2gif.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		05DFA3DDF66F49FFB5DADBA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/example/Debug${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/example/../inc","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/inc","$(inherited)");
+				INFOPLIST_FILE = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/example/CMakeFiles/lottie2gif.dir/Info.plist";
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/Debug${EFFECTIVE_PLATFORM_NAME}/librlottie.a","-Wl, -undefined error","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lottie2gif;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/build/lottie2gif.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		089B881D10984BBDBEA88175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		09FD6DE50046482493FF1C2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1D510A9F7DF64027BDF975DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2678E1B7BE8149C2A66ACC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/Debug${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/inc","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/freetype","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/pixman","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/binding/c","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++14' -fno-exceptions -fno-unwind-tables -fno-asynchronous-unwind-tables -fno-rtti -Wall '-fvisibility=hidden' -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-parameter ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = rlottie;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/build/rlottie.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2D331EEBC3CD40E3847F8083 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2F550EAEE008407DA34BBB29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				"ARCHS[sdk=iphonesimulator*]" = x86_64;
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				ENABLE_BITCODE = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.5.sdk;
+				SYMROOT = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/build";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = x86_64;
+			};
+			name = Debug;
+		};
+		32BACE6D07054641914CE70E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		344BCE642C5C4560B2DB161E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3DD30BA5A18A4615A58CA464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/Release${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/inc","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/freetype","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/pixman","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/binding/c","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++14' -fno-exceptions -fno-unwind-tables -fno-asynchronous-unwind-tables -fno-rtti -Wall '-fvisibility=hidden' -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-parameter ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = rlottie;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/build/rlottie.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		54FBCDED701048B38C9BDC7F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5E35EBC2B19D4397BC8BFD93 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7E78549F1FEA4EFEA39AF1EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7EE55C11D9014A4D8EB1DC20 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",RLOTTIE_BUILD,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC '-fvisibility=hidden' ";
+				OTHER_LDFLAGS = ("-rpath @executable_path/Frameworks -rpath @loader_path/Frameworks -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "librlottie-image-loader.dylib";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/build/rlottie-image-loader.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		848202CFC52D4ADF9ACC112D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A29968DF864A48A0826FCEED /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/MinSizeRel${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/inc","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/freetype","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/pixman","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/binding/c","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++14' -fno-exceptions -fno-unwind-tables -fno-asynchronous-unwind-tables -fno-rtti -Wall '-fvisibility=hidden' -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-parameter ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = rlottie;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/build/rlottie.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A8022D53749E42239B6033A4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BF56F2D0BD6241DE8F84AFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb/Debug${EFFECTIVE_PLATFORM_NAME}";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",RLOTTIE_BUILD,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC '-fvisibility=hidden' ";
+				OTHER_LDFLAGS = ("-rpath @executable_path/Frameworks -rpath @loader_path/Frameworks -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "librlottie-image-loader.dylib";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/build/rlottie-image-loader.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C8A4E308748943DC9D41CA86 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				"ARCHS[sdk=iphonesimulator*]" = x86_64;
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				ENABLE_BITCODE = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.5.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/build";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = x86_64;
+			};
+			name = RelWithDebInfo;
+		};
+		DA776EEC28904D2AB541B62F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb/Release${EFFECTIVE_PLATFORM_NAME}";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",RLOTTIE_BUILD,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-fvisibility=hidden' ";
+				OTHER_LDFLAGS = ("-rpath @executable_path/Frameworks -rpath @loader_path/Frameworks -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "librlottie-image-loader.dylib";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/build/rlottie-image-loader.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DD57E429E4D44A76ACF55683 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/example/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/example/../inc","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/inc","$(inherited)");
+				INFOPLIST_FILE = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/example/CMakeFiles/lottie2gif.dir/Info.plist";
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}/librlottie.a","-Wl, -undefined error","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lottie2gif;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/build/lottie2gif.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DFA5636FA46F4079995F5490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E6D2A0C3DE1D4042A30B7503 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/src/vector/stb/MinSizeRel${EFFECTIVE_PLATFORM_NAME}";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",RLOTTIE_BUILD,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-fvisibility=hidden' ";
+				OTHER_LDFLAGS = ("-rpath @executable_path/Frameworks -rpath @loader_path/Frameworks -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "librlottie-image-loader.dylib";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/build/rlottie-image-loader.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EB2EE528BFCB496DA55C3DC0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				"ARCHS[sdk=iphonesimulator*]" = x86_64;
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				ENABLE_BITCODE = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.5.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/build";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = x86_64;
+			};
+			name = MinSizeRel;
+		};
+		EC2869A8276C4596A3356729 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/example/MinSizeRel${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/example/../inc","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/inc","$(inherited)");
+				INFOPLIST_FILE = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/example/CMakeFiles/lottie2gif.dir/Info.plist";
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/MinSizeRel${EFFECTIVE_PLATFORM_NAME}/librlottie.a","-Wl, -undefined error","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lottie2gif;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/build/lottie2gif.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EF44E626E8614A41A0B8CDC2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/inc","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/freetype","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector/pixman","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/vector","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/lottie","/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/dependency/rlottie/src/binding/c","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++14' -fno-exceptions -fno-unwind-tables -fno-asynchronous-unwind-tables -fno-rtti -Wall '-fvisibility=hidden' -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-parameter ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = rlottie;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/build/rlottie.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F8A427137D7D4B2BA283244E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				"ARCHS[sdk=iphonesimulator*]" = x86_64;
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				ENABLE_BITCODE = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.5.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/oshun/Desktop/IOS_EO/Repository/unity-rlottie/build/ios-sim/build";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = x86_64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E89A1914114AD59AAFEE84 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA5636FA46F4079995F5490 /* Debug */,
+				089B881D10984BBDBEA88175 /* Release */,
+				54FBCDED701048B38C9BDC7F /* MinSizeRel */,
+				A8022D53749E42239B6033A4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		39CDE260395E4182B232B731 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D510A9F7DF64027BDF975DB /* Debug */,
+				09FD6DE50046482493FF1C2D /* Release */,
+				5E35EBC2B19D4397BC8BFD93 /* MinSizeRel */,
+				848202CFC52D4ADF9ACC112D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		564917D2364D409DA466D3FC /* Build configuration list for PBXProject "rlottie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F550EAEE008407DA34BBB29 /* Debug */,
+				F8A427137D7D4B2BA283244E /* Release */,
+				EB2EE528BFCB496DA55C3DC0 /* MinSizeRel */,
+				C8A4E308748943DC9D41CA86 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BABC4E04DCB544D8ACD14753 /* Build configuration list for PBXNativeTarget "rlottie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2678E1B7BE8149C2A66ACC8A /* Debug */,
+				3DD30BA5A18A4615A58CA464 /* Release */,
+				A29968DF864A48A0826FCEED /* MinSizeRel */,
+				EF44E626E8614A41A0B8CDC2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CCF66DC1A4534C84B2ACC3DE /* Build configuration list for PBXNativeTarget "lottie2gif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DFA3DDF66F49FFB5DADBA8 /* Debug */,
+				02BCB30B0C2D496599837CEB /* Release */,
+				EC2869A8276C4596A3356729 /* MinSizeRel */,
+				DD57E429E4D44A76ACF55683 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D2EB36ADF9CF4CB4B79DB6F0 /* Build configuration list for PBXNativeTarget "rlottie-image-loader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF56F2D0BD6241DE8F84AFDF /* Debug */,
+				DA776EEC28904D2AB541B62F /* Release */,
+				E6D2A0C3DE1D4042A30B7503 /* MinSizeRel */,
+				7EE55C11D9014A4D8EB1DC20 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D8CE043641934A8C836A2565 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E78549F1FEA4EFEA39AF1EC /* Debug */,
+				32BACE6D07054641914CE70E /* Release */,
+				344BCE642C5C4560B2DB161E /* MinSizeRel */,
+				2D331EEBC3CD40E3847F8083 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B25DA3E8B474A9EB7D82FB9 /* Project object */;
+}
